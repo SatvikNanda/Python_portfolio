@@ -13,3 +13,9 @@ with col2:
     Hi, i am satvik.
     """
     st.info(content)
+
+content2 = """
+Below you can find some of the apps that i have bbuilt in pythin. Feel free to contact me!
+"""
+
+st.write(content2)
