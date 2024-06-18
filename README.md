@@ -1,0 +1,1 @@
+This is my new python project, where i learn how to make a portfolio website for all my projects
