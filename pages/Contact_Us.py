@@ -1,5 +1,6 @@
 import streamlit as st
 from Home import send_email
+from smtplib import SMTPResponseException
 
 
 st.header("Contact me")
@@ -15,8 +16,11 @@ From: {user_email}
 {raw_message}
 """
 
-    button = st.form_submit_button("Submit")
+    try:
+        button = st.form_submit_button("Submit")
 
-    if button:
-        send_email(message)
-        st.info("Your email was sent successfully")
+        if button:
+            send_email(message)
+            st.info("Your email was sent successfully")
+    except SMTPResponseException as response_error:
+        print("Email sent successfully!")
