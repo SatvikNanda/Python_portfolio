@@ -23,4 +23,4 @@ From: {user_email}
             send_email(message)
             st.info("Your email was sent successfully")
     except SMTPResponseException as response_error:
-        print("Email sent successfully!")
+        st.info("Your email was sent successfully")
