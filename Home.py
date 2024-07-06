@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 
+import smtplib, ssl
+import os
+
+
 st.set_page_config(layout = "wide")
 
 col1, col2 = st.columns(2)
@@ -43,3 +47,20 @@ with col4:
         st.write(row["description"])
         st.image("images(1)/" + row["image"])
         st.write(f"[Source code]({row['url']})")
+
+#configuring email
+def send_email(message):
+    host = "smtp.gmail.com"
+    port = 465
+
+
+    username = "satvik.nanda@gmail.com"
+    password = os.getenv("PASSWORD")
+    receiver = "satvik.nanda@gmail.com"
+
+
+    context  = ssl.create_default_context()
+
+    with smtplib.SMTP_SSL(host, port, context = context) as server:
+        server.login(username, password)
+        server.sendmail(username, receiver, message)
