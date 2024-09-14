@@ -11,5 +11,6 @@
 5. Weather API
 6. Visualising weather forecast
 7. NLP of ebooks
+8. Email Webcam Detection
 
 ### Link: https://pythonportfolio-f7grz4aonfnmijt8edd8qw.streamlit.app/
