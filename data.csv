@@ -7,3 +7,4 @@ Daily News email digest;A program that gets data from a news API and forwards da
 Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/SatvikNanda/python_projects/tree/main/project_weatherforecast;6.png
 Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://github.com/SatvikNanda/python_projects/tree/main/project_weatherforecast;16.png
 NLP of E-books;A program that performs NLP on ebooks to analyse various linguistic features.;https://github.com/SatvikNanda/python_projects/tree/main/project_NLP_eBooks;22.png
+Email Webcam Detection;A program that detects new movement and sends email attached with image.;https://github.com/SatvikNanda/python_projects/tree/main/project_Email_webcam;11.png
