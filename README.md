@@ -12,5 +12,8 @@
 6. Visualising weather forecast
 7. NLP of ebooks
 8. Email Webcam Detection
+9. Python portfolio
+10. Hotel management
+11. Student database management
 
 ### Link: https://pythonportfolio-f7grz4aonfnmijt8edd8qw.streamlit.app/
