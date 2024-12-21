@@ -8,3 +8,5 @@ Weather API;A REST API built with Python and Flask to serve historical weather d
 Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://github.com/SatvikNanda/python_projects/tree/main/project_weatherforecast;16.png
 NLP of E-books;A program that performs NLP on ebooks to analyse various linguistic features.;https://github.com/SatvikNanda/python_projects/tree/main/project_NLP_eBooks;22.png
 Email Webcam Detection;A program that detects new movement and sends email attached with image.;https://github.com/SatvikNanda/python_projects/tree/main/project_Email_webcam;11.png
+Student Database Management;The application demonstrates the integration of a relational database with an interactive GUI.;https://github.com/SatvikNanda/python_projects/tree/main/project_student_management;18.png
+Hotel Management;The application that allows users to book hotels by validating their payment information and updating availability.;https://github.com/SatvikNanda/python_projects/tree/main/project_Hotel_booking;17.png
